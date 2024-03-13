@@ -10,8 +10,8 @@
 .pgina .cabealho {
     position: relative;
     align-self: stretch;
-    width: 100%;
-    height: 80px;
+    width: fit-content;
+    height: 121px;
     background-color: var(--background-colorbright-blue);
 }
 
@@ -27,7 +27,7 @@
 
 .pgina .div {
     display: flex;
-    width: 200px;
+    width: 251px;
     height: 38px;
     align-items: center;
     gap: 12px;
@@ -76,16 +76,16 @@
     font-family: Gill Sans, sans-serif;
     font-weight: 700;
     color: var(--background-colorblack);
-    font-size: 48px;
+    font-size: 64px;
     letter-spacing: 0;
     line-height: normal;
 }
 
 .pgina .questo {
     display: flex;
-    height: 700px;
+    height: 797px;
     align-items: center;
-    gap: 230px;
+    gap: 251px;
     padding: 0px 80px;
     position: relative;
     align-self: stretch;
@@ -96,7 +96,7 @@
 .pgina .corpo {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 624px;
     align-items: flex-start;
     justify-content: center;
     gap: 40px;
@@ -121,7 +121,7 @@
     font-family: Gill Sans, sans-serif;
     font-weight: 700;
     color: var(--background-colorblack);
-    font-size: 48px;
+    font-size: 60px;
     text-align: center;
     letter-spacing: 0;
     line-height: 72px;
@@ -137,7 +137,7 @@
     font-size: 20px;
     text-align: center;
     letter-spacing: 0.4px;
-    line-height: 30px;
+    line-height: 36px;
 }
 
 .pgina .botes-resposta {
@@ -205,19 +205,18 @@
 
 .pgina .rectangle {
     position: relative;
-    width: 280px;
-    height: 450px;
+    width: 405px;
+    height: 666px;
     object-fit: cover;
 }
 
 .pgina .e-book {
     display: flex;
     flex-direction: column;
-    height: 150px;
+    height: 505px;
     align-items: center;
-    justify-content: center;
-    gap: 15px;
-    padding: 98px 200px 80px;
+    gap: 47px;
+    padding: 98px 80px 80px;
     position: relative;
     align-self: stretch;
     width: fit-content;
@@ -237,17 +236,14 @@
 .pgina .frame-4 {
     display: inline-flex;
     align-items: center;
-    gap: 1px;
+    gap: 24px;
     position: relative;
     flex: 0 0 auto;
 }
 
 .pgina .vector {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
     position: relative;
-    width: 6px;
+    width: 64px;
     height: 1px;
 }
 
