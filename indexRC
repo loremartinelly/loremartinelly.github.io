@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="styleguide.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="pgina">
+            <div class="cabealho">
+                <div class="frame">
+                    <div class="div">
+                        <img class="logo" src="https://cdn-icons-png.flaticon.com/512/7910/7910567.png" />
+                        <div class="div-wrapper"><div class="text-wrapper">Teste Núcleo DI</div></div>
+                    </div>
+                    <div class="frame-2"><div class="text-wrapper-2">Gestão Pública</div></div>
+                </div>
+            </div>
+     <div class="resposta-correta">
+            <div class="frame">
+                <img class="correto" src="https://cdn-icons-png.flaticon.com/512/4436/4436481.png" />
+                <div class="text-wrapper">Parabéns, você acertou!</div>
+                <p class="div">
+                    O processo de planejamento requer a adequação das diretrizes estratégicas com os processos organizacionais que permitam a identificação, compreensão e coordenação dos processos administrativos de maneira eficiente,
+                    proporcionando o cumprimento dos princípios constitucionais da Administração Pública.
+                </p>
+           <div class="boto-continuar"><div class="text-wrapper">Continuar</div></div> </div>
+        </div>
+    
+     </body>
+</html>     
+                  
+         
