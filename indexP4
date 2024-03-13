@@ -1,160 +1,35 @@
-.pgina {
-    display: grid;
-    flex-direction: column;
-    height: 1024px;
-    align-items: center;
-    justify-content: center;
-    gap: 148px;
-    position: static;
-    background-color: #ffffff;
-}
-
-.pgina .cabealho {
-    position: block;
-    align-self: center;
-    width: 100%;
-    height: 80px;
-    background-color: var(--background-colorbright-blue);
-}
-
-.pgina .frame {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 584px;
-    position: relative;
-    top: 40px;
-    left: 67px;
-}
-
-.pgina .div {
-    display: flex;
-    width: 200px;
-    height: 38px;
-    align-items: center;
-    gap: 12px;
-    position: relative;
-}
-
-.pgina .logo {
-    position: relative;
-    width: 126px;
-    height: 114px;
-}
-
-.pgina .div-wrapper {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 48px;
-    position: relative;
-    flex: 0 0 auto;
-}
-
-.pgina .text-wrapper {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: Gill Sans, sans-serif;
-    font-weight: 400;
-    color: var(--background-colorblack);
-    font-size: 27px;
-    letter-spacing: 1;
-    line-height: normal;
-}
-
-.pgina .frame-2 {
-    display: flex;
-    width: 471px;
-    height: 81px;
-    align-items: flex-start;
-    gap: 48px;
-    position: relative;
-}
-
-.pgina .text-wrapper-2 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: Gill Sans, sans-serif;
-    font-weight: 700;
-    color: var(--background-colorblack);
-    font-size: 48px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-.resposta-incorreta {
-    display: grid;
-    flex-direction: column;
-    padding: 100px 162px;
-    position: static;
-    background-color: #F4CCCC;
-    border-radius: 35px;
-    overflow: hidden;
-}
-
-.resposta-incorreta .frame {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    position: static;
-    flex: 0 0 auto;
-}
-
-.resposta-incorreta .correto {
-    position: relative;
-    width: 97px;
-    height: 97.83px;
-    margin-top: -1px;
-}
-
-.resposta-incorreta .text-wrapper {
-    position: relative;
-    width: 800px;
-    height: 30px;
-    font-family: Gill Sans, sans-serif
-    font-weight: 700;
-    color: #000000;
-    font-size: 24px;
-    text-align: center;
-    letter-spacing: 0.1px;
-    line-height: 20px;
-}
-
-.resposta-incorreta .div {
-    position: static;
-    width: 850px;
-    height: 105px;
-    font-family: "Plus Jakarta Sans-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 0.1px;
-    line-height: 30px;
-}
-.boto-continuar {
-    display: flex;
-    width: 304px;
-    align-items: center;
-    justify-content: center;
-    gap: 14px;
-    padding: 24px 80px;
-    position: relative;
-    background-color: #122024;
-    border-radius: 16px;
-}
-
-.boto-continuar .text-wrapper {
-    position: static;
-    width: fit-content;
-    margin-top: -0.44px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 24px;
-    letter-spacing: 0.48px;
-    line-height: 28.8px;
-    white-space: nowrap;
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="styleguide.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="pgina">
+            <div class="cabealho">
+                <div class="frame">
+                    <div class="div">
+                        <img class="logo" src="https://cdn-icons-png.flaticon.com/512/7910/7910567.png" />
+                        <div class="div-wrapper"><div class="text-wrapper">Teste Núcleo DI</div></div>
+                    </div>
+                    <div class="frame-2"><div class="text-wrapper-2">Gestão Pública</div></div>
+                </div>
+            </div>
+<div style="width: 100%; height: 100%; flex-direction: column; justify-content: center; align-items: center; gap: 53px; display: inline-flex">
+    <div style="flex-direction: column; justify-content: center; align-items: center; gap: 42px; display: flex">
+        <div style="width: 965px; height: 77px; text-align: justify; color: black; font-size: 20px; font-family: Plus Jakarta Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">Agora que você entendeu a importância do planejamento estratégico, vamos compreender a construção do Mapa Estratégico? Antes de seguirmos, vamos retomar o que aprendemos até aqui?</div>
+        <div style="width:100%;height:0;padding-bottom:74%;position:relative;"><iframe src="https://giphy.com/embed/bODYlmMUANUlv37xfs" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/bODYlmMUANUlv37xfs"></a></p>
+        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 22px; display: flex">
+            <div style="width: 965px; height: 77px; text-align: justify"><span style="color: black; font-size: 20px; font-family: Plus Jakarta Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">Para exemplificar, veja um exemplo de Mapa Estratégico construído pelos gestores de saúde do município de Guarapuava/PR. </span><span style="color: black; font-size: 20px; font-family: Plus Jakarta Sans; font-weight: 400; text-decoration: underline; line-height: 28px; word-wrap: break-word">Clique aqui e conheça.</span><span style="color: black; font-size: 20px; font-family: Plus Jakarta Sans; font-weight: 400; line-height: 28px; word-wrap: break-word"> <br/></span></div>
+            <div style="width: 965px; height: 77px; text-align: justify; color: black; font-size: 20px; font-family: Plus Jakarta Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">A seguir, vamos conhecer as etapas que contribuem para a construção dessa ferramenta de planejamento.<br/></div>
+        </div>
+    </div>
+    <div style="width: 304px; padding-left: 80px; padding-right: 80px; padding-top: 24px; padding-bottom: 24px; background: #122024; border-radius: 16px; justify-content: center; align-items: center; gap: 14px; display: inline-flex">
+        <div style="color: white; font-size: 24px; font-family: Inter; font-weight: 700; line-height: 28.80px; letter-spacing: 0.48px; word-wrap: break-word">Continuar</div>
+    </div>
+</div>
+          
+          </body>
+        </html>  
