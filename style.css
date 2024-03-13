@@ -1,0 +1,373 @@
+.pgina {
+    display: flex;
+    flex-direction: column;
+    height: 1024px;
+    align-items: flex-start;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.pgina .cabealho {
+    position: relative;
+    align-self: stretch;
+    width: fit-content;
+    height: 121px;
+    background-color: var(--background-colorbright-blue);
+}
+
+.pgina .frame {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 584px;
+    position: relative;
+    top: 40px;
+    left: 67px;
+}
+
+.pgina .div {
+    display: flex;
+    width: 251px;
+    height: 38px;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+}
+
+.pgina .logo {
+    position: relative;
+    width: 126px;
+    height: 114px;
+}
+
+.pgina .div-wrapper {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 48px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.pgina .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: Gill Sans, sans-serif;
+    font-weight: 400;
+    color: var(--background-colorblack);
+    font-size: 27px;
+    letter-spacing: 1;
+    line-height: normal;
+}
+
+.pgina .frame-2 {
+    display: flex;
+    width: 471px;
+    height: 81px;
+    align-items: flex-start;
+    gap: 48px;
+    position: relative;
+}
+
+.pgina .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: Gill Sans, sans-serif;
+    font-weight: 700;
+    color: var(--background-colorblack);
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.pgina .questo {
+    display: flex;
+    height: 797px;
+    align-items: center;
+    gap: 251px;
+    padding: 0px 80px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: var(--background-colorbright-blue);
+}
+
+.pgina .corpo {
+    display: flex;
+    flex-direction: column;
+    width: 624px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+}
+
+.pgina .pergunta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.pgina .text-wrapper-3 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: Gill Sans, sans-serif;
+    font-weight: 700;
+    color: var(--background-colorblack);
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 72px;
+}
+
+.pgina .como-vimos-o {
+    position: relative;
+    align-self: stretch;
+    opacity: 0.7;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--background-colorblack);
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 36px;
+}
+
+.pgina .botes-resposta {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.pgina .sim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 24px 32px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: rgb(250,180,0);
+    border-radius: 16px;
+}
+
+.pgina .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.44px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: rgb(29,30,34);
+    font-size: 24px;
+    letter-spacing: 0.48px;
+    line-height: 28.8px;
+    white-space: nowrap;
+}
+
+.pgina .no {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 24px 32px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: rgb(250,180,0);
+    border-radius: 16px;
+    box-shadow: 8px 8px 16px #0000000a;
+}
+
+.pgina .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: rgb(29,30,34);
+    font-size: 24px;
+    letter-spacing: 0.48px;
+    line-height: 28.8px;
+    white-space: nowrap;
+}
+
+.pgina .rectangle {
+    position: relative;
+    width: 405px;
+    height: 666px;
+    object-fit: cover;
+}
+
+.pgina .e-book {
+    display: flex;
+    flex-direction: column;
+    height: 505px;
+    align-items: center;
+    gap: 47px;
+    padding: 98px 80px 80px;
+    position: relative;
+    align-self: stretch;
+    width: fit-content;
+    margin-bottom: -399px;
+    background-color: var(--background-colorwhite);
+}
+
+.pgina .frame-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.pgina .frame-4 {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.pgina .vector {
+    position: relative;
+    width: 64px;
+    height: 1px;
+}
+
+.pgina .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    opacity: 0.7;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--background-colorblack);
+    font-size: 24px;
+    letter-spacing: 0.48px;
+    line-height: 28.8px;
+    white-space: nowrap;
+}
+
+.pgina .consulte-o-e-book {
+    position: relative;
+    width: fit-content;
+    font-family: Gill Sans, sans-serif;
+    font-weight: 400;
+    color: var(--background-colorblack);
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 43.2px;
+}
+
+.pgina .span {
+    font-weight: 600;
+}
+
+.pgina .text-wrapper-7 {
+    font-family: Gill Sans, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.pgina .icone-ebook {
+    position: relative;
+    width: 175px;
+    height: 175px;
+    margin-bottom: -26px;
+    object-fit: cover;
+}
+
+.pgina .rodap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 47px 517px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-bottom: -596px;
+    background-color: var(--background-colorblack);
+}
+
+.pgina .frame-5 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.pgina .frame-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.pgina .frame-6 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.pgina .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: Gill Sans, sans-serif;
+    font-weight: 600;
+    color: var(--background-colorwhite);
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 67.2px;
+    white-space: nowrap;
+}
+
+.pgina .frame-7 {
+    position: relative;
+    width: 250px;
+    height: 38px;
+    margin-top: -2px;
+}
+
+.pgina .frame-8 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+
+.pgina .text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: Gill Sans, sans-serif;
+    font-weight: 600;
+    color: var(--background-colorwhite);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+}
