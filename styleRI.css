@@ -102,9 +102,9 @@
     flex: 0 0 auto;
 }
 
-.resposta-incorreta .incorreto {
+.resposta-incorreta .img-banner-error {
     position: relative;
-    width: 97px;
+    width: 30px !important;
     height: 97.83px;
     margin-top: -1px;
 }
